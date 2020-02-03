@@ -35,7 +35,3 @@ GameTile.prototype.render = function(context) {
 	context.stroke();
     context.closePath();
 }
-
-//GameTile.prototype.move = function(r) {
-//	this.x += (r * GameConfig.TILE_SIZE.BOARD_TILE);
-//};
